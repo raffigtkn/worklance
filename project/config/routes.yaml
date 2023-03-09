@@ -1,0 +1,13 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+app_index_index:
+    path: /
+    controller: App\Controller\Index::index
+
+app_first_index:
+    path: /first
+    controller: App\Controller\First::index
